@@ -27,7 +27,7 @@ io.on('connection', function (socket) {
   setInterval(function () {
     data = updateData(data);
     socket.emit('data', data);
-  }, 100);
+  }, 50);
 });
 
 function rand (min, max) {
