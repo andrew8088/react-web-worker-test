@@ -1,11 +1,3 @@
-Hi Nitin,
-
-First off, thanks for giving me this assignment; I've really enjoyed the process of breaking apart this problem and finding a solution. It was fascinating to dig into web workers, the guts of React, and React app performance. Below you'll see what I found.
-
-Thanks,
-
-Andrew
-
 Let me start with a TL;DR:
 
 - Using the `react-worker-dom` library, you **can** do React's virtual DOM reconciliation in a web worker.
